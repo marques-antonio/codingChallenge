@@ -1,0 +1,301 @@
+{
+  "ConstructionLine.CodingChallenge.dll": {
+    "C:\\Users\\Antonio Marques\\Downloads\\codingchallenge-master\\codingchallenge-master\\ConstructionLine.CodingChallenge\\Color.cs": {
+      "ConstructionLine.CodingChallenge.Color": {
+        "System.Guid ConstructionLine.CodingChallenge.Color::get_Id()": {
+          "Lines": {
+            "8": 600135
+          },
+          "Branches": []
+        },
+        "System.String ConstructionLine.CodingChallenge.Color::get_Name()": {
+          "Lines": {
+            "10": 20
+          },
+          "Branches": []
+        },
+        "System.Void ConstructionLine.CodingChallenge.Color::.ctor(System.Guid,System.String)": {
+          "Lines": {
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5,
+            "16": 5
+          },
+          "Branches": []
+        },
+        "System.Void ConstructionLine.CodingChallenge.Color::.cctor()": {
+          "Lines": {
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "26": 1,
+            "27": 1,
+            "28": 1,
+            "29": 1,
+            "30": 1,
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "34": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Antonio Marques\\Downloads\\codingchallenge-master\\codingchallenge-master\\ConstructionLine.CodingChallenge\\SearchEngine.cs": {
+      "ConstructionLine.CodingChallenge.SearchEngine": {
+        "ConstructionLine.CodingChallenge.SearchResults ConstructionLine.CodingChallenge.SearchEngine::Search(ConstructionLine.CodingChallenge.SearchOptions)": {
+          "Lines": {
+            "17": 3,
+            "20": 3,
+            "21": 50006,
+            "22": 50006,
+            "23": 3,
+            "25": 3,
+            "26": 3,
+            "27": 3,
+            "28": 18,
+            "29": 18,
+            "30": 18,
+            "31": 49328,
+            "32": 18,
+            "33": 12,
+            "34": 12,
+            "35": 12,
+            "36": 29598,
+            "37": 12,
+            "38": 3,
+            "40": 3,
+            "41": 3
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 50003
+            },
+            {
+              "Line": 21,
+              "Offset": 16,
+              "EndOffset": 42,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 9862
+            },
+            {
+              "Line": 21,
+              "Offset": 40,
+              "EndOffset": 42,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 9862
+            },
+            {
+              "Line": 21,
+              "Offset": 58,
+              "EndOffset": 60,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 21,
+              "Offset": 58,
+              "EndOffset": 84,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 9861
+            },
+            {
+              "Line": 21,
+              "Offset": 40,
+              "EndOffset": 87,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 40141
+            }
+          ]
+        },
+        "System.Void ConstructionLine.CodingChallenge.SearchEngine::.ctor(System.Collections.Generic.List`1<ConstructionLine.CodingChallenge.Shirt>)": {
+          "Lines": {
+            "11": 4,
+            "12": 4,
+            "13": 4,
+            "14": 3
+          },
+          "Branches": [
+            {
+              "Line": 13,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 13,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\Antonio Marques\\Downloads\\codingchallenge-master\\codingchallenge-master\\ConstructionLine.CodingChallenge\\SearchOptions.cs": {
+      "ConstructionLine.CodingChallenge.SearchOptions": {
+        "System.Collections.Generic.List`1<ConstructionLine.CodingChallenge.Size> ConstructionLine.CodingChallenge.SearchOptions::get_Sizes()": {
+          "Lines": {
+            "7": 69738
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<ConstructionLine.CodingChallenge.Color> ConstructionLine.CodingChallenge.SearchOptions::get_Colors()": {
+          "Lines": {
+            "9": 300021
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Antonio Marques\\Downloads\\codingchallenge-master\\codingchallenge-master\\ConstructionLine.CodingChallenge\\SearchResults.cs": {
+      "ConstructionLine.CodingChallenge.SearchResults": {
+        "System.Collections.Generic.List`1<ConstructionLine.CodingChallenge.Shirt> ConstructionLine.CodingChallenge.SearchResults::get_Shirts()": {
+          "Lines": {
+            "7": 8
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<ConstructionLine.CodingChallenge.SizeCount> ConstructionLine.CodingChallenge.SearchResults::get_SizeCounts()": {
+          "Lines": {
+            "10": 8
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<ConstructionLine.CodingChallenge.ColorCount> ConstructionLine.CodingChallenge.SearchResults::get_ColorCounts()": {
+          "Lines": {
+            "13": 8
+          },
+          "Branches": []
+        }
+      },
+      "ConstructionLine.CodingChallenge.SizeCount": {
+        "ConstructionLine.CodingChallenge.Size ConstructionLine.CodingChallenge.SizeCount::get_Size()": {
+          "Lines": {
+            "19": 42
+          },
+          "Branches": []
+        },
+        "System.Int32 ConstructionLine.CodingChallenge.SizeCount::get_Count()": {
+          "Lines": {
+            "21": 30
+          },
+          "Branches": []
+        }
+      },
+      "ConstructionLine.CodingChallenge.ColorCount": {
+        "ConstructionLine.CodingChallenge.Color ConstructionLine.CodingChallenge.ColorCount::get_Color()": {
+          "Lines": {
+            "27": 90
+          },
+          "Branches": []
+        },
+        "System.Int32 ConstructionLine.CodingChallenge.ColorCount::get_Count()": {
+          "Lines": {
+            "29": 50
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Antonio Marques\\Downloads\\codingchallenge-master\\codingchallenge-master\\ConstructionLine.CodingChallenge\\Shirt.cs": {
+      "ConstructionLine.CodingChallenge.Shirt": {
+        "System.Guid ConstructionLine.CodingChallenge.Shirt::get_Id()": {
+          "Lines": {
+            "7": 9863
+          },
+          "Branches": []
+        },
+        "System.String ConstructionLine.CodingChallenge.Shirt::get_Name()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "ConstructionLine.CodingChallenge.Size ConstructionLine.CodingChallenge.Shirt::get_Size()": {
+          "Lines": {
+            "11": 239462
+          },
+          "Branches": []
+        },
+        "ConstructionLine.CodingChallenge.Color ConstructionLine.CodingChallenge.Shirt::get_Color()": {
+          "Lines": {
+            "13": 449333
+          },
+          "Branches": []
+        },
+        "System.Void ConstructionLine.CodingChallenge.Shirt::.ctor(System.Guid,System.String,ConstructionLine.CodingChallenge.Size,ConstructionLine.CodingChallenge.Color)": {
+          "Lines": {
+            "15": 50003,
+            "16": 50003,
+            "17": 50003,
+            "18": 50003,
+            "19": 50003,
+            "20": 50003,
+            "21": 50003
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Antonio Marques\\Downloads\\codingchallenge-master\\codingchallenge-master\\ConstructionLine.CodingChallenge\\Size.cs": {
+      "ConstructionLine.CodingChallenge.Size": {
+        "System.Guid ConstructionLine.CodingChallenge.Size::get_Id()": {
+          "Lines": {
+            "8": 309919
+          },
+          "Branches": []
+        },
+        "System.String ConstructionLine.CodingChallenge.Size::get_Name()": {
+          "Lines": {
+            "10": 12
+          },
+          "Branches": []
+        },
+        "System.Void ConstructionLine.CodingChallenge.Size::.ctor(System.Guid,System.String)": {
+          "Lines": {
+            "12": 3,
+            "13": 3,
+            "14": 3,
+            "15": 3,
+            "16": 3
+          },
+          "Branches": []
+        },
+        "System.Void ConstructionLine.CodingChallenge.Size::.cctor()": {
+          "Lines": {
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1,
+            "28": 1,
+            "29": 1,
+            "30": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
